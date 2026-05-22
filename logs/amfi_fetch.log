@@ -1,0 +1,42 @@
+[INFO] 2026-05-20 07:55:41 | ============================================================
+[INFO] 2026-05-20 07:55:41 | AMFI NAV Fetcher | years=1 | workers=4 | sleep=1.0s
+[INFO] 2026-05-20 07:55:41 | ============================================================
+[INFO] 2026-05-20 07:55:41 | Generated 5 date chunks covering 20-May-2025 → 20-May-2026
+[INFO] 2026-05-20 07:55:41 | Fetching 20-May-2025 -> 12-Aug-2025
+[INFO] 2026-05-20 07:55:41 | Fetching 13-Aug-2025 -> 05-Nov-2025
+[INFO] 2026-05-20 07:55:41 | Fetching 06-Nov-2025 -> 29-Jan-2026
+[INFO] 2026-05-20 07:55:41 | Fetching 30-Jan-2026 -> 24-Apr-2026
+[INFO] 2026-05-20 07:56:01 | Fetching 25-Apr-2026 -> 20-May-2026
+[INFO] 2026-05-20 07:56:08 | Merging 5 chunk DataFrames …
+[INFO] 2026-05-20 07:56:08 | Saving CSV → /Users/vian/Desktop/vikas/data/amfi_nav_1y.csv
+[INFO] 2026-05-20 07:56:11 | Saving Parquet → /Users/vian/Desktop/vikas/data/amfi_nav_1y.parquet
+[INFO] 2026-05-20 07:56:12 | Metadata written: /Users/vian/Desktop/vikas/data/amfi_nav_1y_metadata.json
+[INFO] 2026-05-20 07:56:12 | ============================================================
+[INFO] 2026-05-20 07:56:12 | SUMMARY
+[INFO] 2026-05-20 07:56:12 |   Date range        : 2025-05-20 → 2026-05-19
+[INFO] 2026-05-20 07:56:12 |   Successful chunks : 5
+[INFO] 2026-05-20 07:56:12 |   Failed chunks     : 0
+[INFO] 2026-05-20 07:56:12 |   Runtime           : 31.0 seconds
+[INFO] 2026-05-20 07:56:12 |   Output dir        : /Users/vian/Desktop/vikas/data
+[INFO] 2026-05-20 07:56:12 | ============================================================
+[INFO] 2026-05-20 08:00:16 | ============================================================
+[INFO] 2026-05-20 08:00:16 | AMFI NAV Fetcher | years=1 | workers=4 | sleep=1.0s
+[INFO] 2026-05-20 08:00:16 | ============================================================
+[INFO] 2026-05-20 08:00:16 | Generated 5 date chunks covering 20-May-2025 → 20-May-2026
+[INFO] 2026-05-20 08:00:16 | Resuming from checkpoint: chunk_20250520_20250812.parquet
+[INFO] 2026-05-20 08:00:16 | Resuming from checkpoint: chunk_20250813_20251105.parquet
+[INFO] 2026-05-20 08:00:16 | Resuming from checkpoint: chunk_20251106_20260129.parquet
+[INFO] 2026-05-20 08:00:16 | Resuming from checkpoint: chunk_20260130_20260424.parquet
+[INFO] 2026-05-20 08:00:16 | Resuming from checkpoint: chunk_20260425_20260520.parquet
+[INFO] 2026-05-20 08:00:16 | Merging 5 chunk DataFrames …
+[INFO] 2026-05-20 08:00:16 | Saving CSV → /Users/vian/Desktop/vikas/data/amfi_nav_1y.csv
+[INFO] 2026-05-20 08:00:19 | Saving Parquet → /Users/vian/Desktop/vikas/data/amfi_nav_1y.parquet
+[INFO] 2026-05-20 08:00:20 | Metadata written: /Users/vian/Desktop/vikas/data/amfi_nav_1y_metadata.json
+[INFO] 2026-05-20 08:00:20 | ============================================================
+[INFO] 2026-05-20 08:00:20 | SUMMARY
+[INFO] 2026-05-20 08:00:20 |   Date range        : 2025-05-20 → 2026-05-19
+[INFO] 2026-05-20 08:00:20 |   Successful chunks : 5
+[INFO] 2026-05-20 08:00:20 |   Failed chunks     : 0
+[INFO] 2026-05-20 08:00:20 |   Runtime           : 4.2 seconds
+[INFO] 2026-05-20 08:00:20 |   Output dir        : /Users/vian/Desktop/vikas/data
+[INFO] 2026-05-20 08:00:20 | ============================================================

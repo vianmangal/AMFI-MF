@@ -1,0 +1,14 @@
+{
+  "total_rows": 2053097,
+  "unique_schemes": 8495,
+  "unique_amcs": 4054,
+  "date_range": {
+    "from": "2025-05-20",
+    "to": "2026-05-19"
+  },
+  "successful_chunks": 5,
+  "failed_chunks": 0,
+  "failed_chunk_details": [],
+  "runtime_seconds": 3.62,
+  "fetch_timestamp": "2026-05-20T02:30:20.665313Z"
+}

@@ -1,0 +1,17 @@
+# requirements.txt — AMFI NAV Fetcher
+# Install with: pip install -r requirements.txt
+
+# HTTP requests with connection pooling
+requests>=2.31.0
+
+# Data manipulation and CSV/Parquet I/O
+pandas>=2.1.0
+
+# Parquet engine (columnar storage, fast reads)
+pyarrow>=14.0.0
+
+# Progress bars
+tqdm>=4.66.0
+
+# Retry logic (bundled with requests but explicit pin is safer)
+urllib3>=2.0.0
