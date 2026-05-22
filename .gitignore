@@ -10,3 +10,5 @@ __pycache__/
 .mypy_cache/
 .ruff_cache/
 .ipynb_checkpoints/
+
+data/amfi_nav_1y.csv
